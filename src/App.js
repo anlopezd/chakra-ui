@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { Chakra } from './components/Chakra'
+import { Chakra2 } from './components/Chakra2';
+import { Chakra3 } from './components/Chakra3';
+import { Chakra4 } from './components/Chakra4';
+import { Navbar } from './components/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+  return(
+    <>
+    <Navbar />
+    <Chakra />
+    <Chakra2 />
+    <Chakra3 />
+    <Chakra4 />
+    </>
+    )
+
 }
 
 export default App;
