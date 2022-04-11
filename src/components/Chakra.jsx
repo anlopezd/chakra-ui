@@ -17,7 +17,7 @@ export const Chakra = () => {
 
             <Box mt="38">
                 <Container centerContent maxW="600" fontWeight={400}>
-                    <Heading as={"h2"} fontSize="60" textAlign={"center"}>
+                    <Heading as={"h2"} fontSize={["45", "60"]} textAlign={"center"}>
                     Create accessible React apps <Text color="teal.400">with speed</Text>
                     </Heading>
                     <Text color="gray.500" mt="2" fontWeight="400" fontSize="20" textAlign="center">

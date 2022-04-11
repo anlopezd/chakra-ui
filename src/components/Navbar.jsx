@@ -19,10 +19,10 @@ export const Navbar = () => {
   return (
     
       <Flex alignItems="center" h="80px" p="5" w="100%" position="sticky" top="0" bg={bgColor} zIndex="2">
-        <Text color={textColor} fontWeight="bold" fontSize={["16", "24"]}>
+        <Text mr="5" color={textColor} fontWeight="bold" fontSize={["16", "24"]}>
           Chakra Ui
         </Text>
-        <Spacer />
+        <Spacer display={["none", "block"]} />
         <HStack spacing="10px" display="flex" alignItems="center">
         <Link href="#inicio" fontSize={["15", "18"]}>
        Inicio
@@ -37,8 +37,8 @@ export const Navbar = () => {
         Contact
         </Link>
         </HStack>
-        <Spacer />
-        <Button onClick={toggleColorMode}>{colorMode === "light" ? <MdDarkMode /> : <BsFillSunFill />} </Button>
+        <Spacer display={["none", "block"]} />
+        <Button ml="5" onClick={toggleColorMode}>{colorMode === "light" ? <MdDarkMode /> : <BsFillSunFill />} </Button>
       </Flex>
     
   );

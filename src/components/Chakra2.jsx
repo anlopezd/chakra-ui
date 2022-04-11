@@ -34,11 +34,11 @@ export const Chakra2 = () => {
                     </ListItem>
                 </UnorderedList>
                 </Box>
-                <Image src="imagenes/motivation.svg" />
+                <Image mt={["50", "0"]} src="imagenes/motivation.svg" />
               </Box>
 
               <Box mt={["20", "0"]} display="flex" flexDirection={["column", "row"]} w="80%" mx="auto">
-                <Image src="imagenes/motivation.svg" />
+                <Image mt={["50", "0"]} order={["2", "0"]} src="imagenes/motivation.svg" />
                 <Box>
                 <Heading>Build</Heading>
                 <UnorderedList mt="2">
@@ -70,7 +70,7 @@ export const Chakra2 = () => {
                     </ListItem>
                 </UnorderedList>
                 </Box>
-                <Image src="imagenes/motivation.svg" />
+                <Image mt={["50", "0"]} src="imagenes/motivation.svg" />
               </Box>
             </Box>
         </Box>
